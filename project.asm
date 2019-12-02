@@ -2,7 +2,7 @@
 	
 	guess_int: .word 0 #accumulator variable that stores the guess
 	
-	card_int: .word 0 #stores the card number
+	card_int: .word 1 #stores the card number
 	
 	generate_count_int: .word 0 #count variable to control generate loop
 	
@@ -12,7 +12,7 @@
 	
 	shown_arr: .word 0, 0, 0, 0, 0, 0 #stores the card numbers that have already been displayed
 	
-	display_arr: .word 0, 0, 0, 0, 0, 0, 00, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #stores the values that exist on the card 'n'
+	display_arr: .word 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 #stores the values that exist on the card 'n'
 	
 	card_worth_arr: .word 1, 2, 4, 8, 16, 32 #stores the 'worth' of each card, 2^(card_int - 1)
 	
